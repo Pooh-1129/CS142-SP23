@@ -1,0 +1,39 @@
+table {
+  text-align: center;
+  /* width: 25vw; */
+  background-color: whitesmoke;
+}
+
+.change {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 2.4vh;
+}
+
+.info {
+  font-family: 'Times New Roman';
+  font-size: 3.3vh;
+}
+
+tr:first-child td {
+  height: 5vh;
+}
+
+tr td {
+  height: 4.3vh;
+  width: 3.7vw;
+}
+
+.normal {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.normal:hover {
+  color:white;
+  background-color: green;
+}
+
+.dim {
+  font-weight: lighter;
+}
