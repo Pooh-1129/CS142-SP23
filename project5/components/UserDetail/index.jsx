@@ -52,7 +52,7 @@ class UserDetail extends React.Component {
       (response) => {
         const newUser = JSON.parse(response.data);
         this.setState({user: newUser});
-        this.props.callback("userDetail", newUser.first_name + " " + newUser.last_name);
+        this.props.callback(newUser.first_name + " " + newUser.last_name,"UserDetail");
       },
       (response) => {
         console.log(response);
@@ -99,11 +99,6 @@ class UserDetail extends React.Component {
           </ListItem>
           {/* <Divider/> */}
         </List>
-
-        {/* <Typography variant='body1'>
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          <Link to={"/photos/" + this.props.match.params.userId}>Photos shared by the user</Link>
-        </Typography> */}
       </div>
     );
   }
