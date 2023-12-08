@@ -1,0 +1,9 @@
+.photos{
+    padding: 10px;
+    margin-left: 15px;
+    background-color: rgb(99, 165, 240);
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
